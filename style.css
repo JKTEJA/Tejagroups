@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+/* == navbar == */
+.navbar ul li{
+    padding-left: 30px;
+    font-size: 1.3em;       
+}
+.navbar-nav  li a{
+    color: white;                  
+}
+.navbar li a:hover{
+    color: gold;
+}
+.navbar ul li{
+padding-left: 30px;
+font-size: 1.2em;
+}
+/* == navbar end */
+/* -- bar -- */
+ #menu-icon{
+    width: 33px;
+    height: 33px;
+    margin: 20px 0 0px 0px;
+    cursor:pointer;
+}
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+#bar1{
+    transform: translateY(-4px);
+}
+#bar3{
+    transform: translateY(4px);
+}
+/* -- bar end  -- */
+/* == carousel == */
+.carousel img{
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+/* == srvices  start== */
+.services{
+ 
+    background-color: lightgrey;
+    background-image: url();
+}
+.info-blocks-in{
+    background-color:hsl(180, 82%, 48%);
+    border: 1px solid lightcyan;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    margin: 4px;
+}
+/* == srvices end == */
+ .jk1{
+ border: 5px solid greenyellow;
+ margin:10px 0px 10px 0px;
+ text-align: center;
+ padding: 5px;
+}
+.ourteam img{
+    width: 100%;
+    border-radius: 10px;
+}
